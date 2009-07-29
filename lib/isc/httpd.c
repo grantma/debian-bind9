@@ -17,6 +17,7 @@
 /* $Id: httpd.c,v 1.12.12.2 2008/01/17 23:46:37 tbox Exp $ */
 
 /*! \file */
+#include <config.h>
 
 #include <isc/buffer.h>
 #include <isc/httpd.h>
