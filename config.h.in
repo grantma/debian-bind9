@@ -308,6 +308,9 @@ int sigwait(const unsigned int *set, int *sig);
    first (like Motorola and SPARC, unlike Intel and VAX). */
 #undef WORDS_BIGENDIAN
 
+/* Enabling GNU libc extensions */
+#undef _GNU_SOURCE
+
 /* Define to empty if `const' does not conform to ANSI C. */
 #undef const
 
