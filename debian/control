@@ -80,20 +80,20 @@ Description: BIND9 Shared Library used by BIND
  This package delivers the libbind9 shared library used by BIND's daemons and
  clients.
 
-Package: libdns81
+Package: libdns88
 Section: libs
 Priority: standard
 Architecture: any
 Conflicts: libbind0, libbind9-41
 Replaces: libbind0
-Depends: ${shlibs:Depends}, ${misc:Depends}, libisc83
+Depends: ${shlibs:Depends}, ${misc:Depends}, libisc84
 Description: DNS Shared Library used by BIND
  ${Description}
  .
  This package delivers the libdns shared library used by BIND's daemons and
  clients.
 
-Package: libisc83
+Package: libisc84
 Section: libs
 Priority: standard
 Architecture: any
