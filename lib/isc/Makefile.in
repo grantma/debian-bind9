@@ -119,7 +119,6 @@ libisc-nosymtbl.la: ${OBJS}
 		${CC} ${ALL_CFLAGS} ${LDFLAGS} -o libisc-nosymtbl.la -rpath ${libdir} \
 		-version-info ${LIBINTERFACE}:${LIBREVISION}:${LIBAGE} \
 		${OBJS} ${LIBS}
-	ln -sf .libs/libisc.so .
 
 timestamp: libisc.@A@ libisc-nosymtbl.@A@
 	touch timestamp
@@ -132,4 +131,4 @@ install:: timestamp installdirs
 
 clean distclean::
 	rm -f libisc.@A@ libisc-nosymtbl.@A@ libisc.la \
-	libisc-nosymtbl.la timestamp libisc.so
+	libisc-nosymtbl.la timestamp
