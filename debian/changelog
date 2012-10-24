@@ -1,4 +1,4 @@
-bind9 (1:9.8.4.dfsg-1) UNRELEASED; urgency=high
+bind9 (1:9.8.4.dfsg-1~mag0) UNRELEASED; urgency=high
 
   * New upstream version 9.8.4. Code rebase to address serious memory leaks, 
     and security and protocol fixes.
